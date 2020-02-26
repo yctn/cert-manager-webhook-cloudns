@@ -206,7 +206,7 @@ metadata:
   labels:
     app: cert-manager-webhook-cloudns
   annotations:
-    cert-manager.io/v1alpha2/inject-ca-from: "cert-manager/cert-manager-webhook-cloudns-webhook-tls"
+    cert-manager.io/inject-ca-from: "cert-manager/cert-manager-webhook-cloudns-webhook-tls"
 spec:
   group: acme.ixon.cloud
   groupPriorityMinimum: 1000
